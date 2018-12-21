@@ -36,3 +36,8 @@ var myNumbers;
 })(myNumbers || (myNumbers = {}));
 var myResult = myNumbers.order3;
 console.log(myResult);
+// any
+var anyTypes = "hello";
+console.log(anyTypes);
+anyTypes = { "a": "hello" };
+console.log(anyTypes);

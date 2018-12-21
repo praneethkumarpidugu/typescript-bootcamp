@@ -48,5 +48,12 @@ enum myNumbers {
 let myResult: myNumbers = myNumbers.order3;
 console.log(myResult);
 
+// any
+
+let anyTypes: any = "hello";
+console.log(anyTypes);
+
+anyTypes = {"a": "hello"};
+console.log(anyTypes);
 
 
