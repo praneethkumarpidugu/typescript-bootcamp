@@ -56,4 +56,7 @@ console.log(anyTypes);
 anyTypes = {"a": "hello"};
 console.log(anyTypes);
 
+// Using Types in functions
+
+
 
