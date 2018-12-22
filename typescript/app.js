@@ -2,6 +2,7 @@
 // implicit declaration
 // String
 var myVar = "hello";
+var myName = "Max";
 // Not right myVar = 1
 // Number
 var myNum = 1;
@@ -41,3 +42,17 @@ var anyTypes = "hello";
 console.log(anyTypes);
 anyTypes = { "a": "hello" };
 console.log(anyTypes);
+// Using Types in functions arguments and return
+// types
+function returnMyName() {
+    return myName;
+}
+console.log(returnMyName());
+function sayHello() {
+    console.log("say hello");
+}
+// types in arguments
+function multiply(value1, value2) {
+    return value1 * value2;
+}
+console.log(multiply(2, 2));
