@@ -76,3 +76,25 @@ function multiply(value1:number, value2:number): number {
 }
 
 console.log(multiply(2, 2));
+
+// Function Types
+let myMultiply: (val1:number, val2:number) => number;
+
+myMultiply = multiply;
+console.log(myMultiply(5,2));
+
+let userData: {name: string, age: number} = {
+    name: "hello",
+    age: 27
+};
+
+// userData = {
+//     a: "hello",
+//     b: 27
+// };
+let complex: {data: number[], output: (all: boolean) => number[]} = {
+    data: [10, 20, 30],
+    output: function(all: boolean): number[] {
+        return this.data;
+    }
+}

@@ -56,3 +56,21 @@ function multiply(value1, value2) {
     return value1 * value2;
 }
 console.log(multiply(2, 2));
+// Function Types
+var myMultiply;
+myMultiply = multiply;
+console.log(myMultiply(5, 2));
+var userData = {
+    name: "hello",
+    age: 27
+};
+// userData = {
+//     a: "hello",
+//     b: 27
+// };
+var complex = {
+    data: [10, 20, 30],
+    output: function (all) {
+        return this.data;
+    }
+};
