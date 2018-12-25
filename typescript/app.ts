@@ -98,3 +98,24 @@ let complex: {data: number[], output: (all: boolean) => number[]} = {
         return this.data;
     }
 }
+
+// exmaple practice 2
+// let complex_data : {data: number[], output: (all : boolean) => number[]}
+// = {
+//     data: [10, 20, 30],
+//     output: function (all: boolean){
+//         return this.data;
+//     }
+// }
+
+// Type aliases
+
+type Complex = {data: number[], output: (all: boolean) => number[]};
+
+let complex2 : Complex = {
+    data: [10, 0.5, 30],
+    output: function(all: boolean) {
+        return this.data;
+    }
+}
+
