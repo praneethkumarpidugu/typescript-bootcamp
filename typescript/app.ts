@@ -119,3 +119,6 @@ let complex2 : Complex = {
     }
 }
 
+// Union Types
+let myRealRealAge: string | number = 27;
+myRealRealAge = "27";

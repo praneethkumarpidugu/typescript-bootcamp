@@ -74,3 +74,12 @@ var complex = {
         return this.data;
     }
 };
+var complex2 = {
+    data: [10, 0.5, 30],
+    output: function (all) {
+        return this.data;
+    }
+};
+// Union Types
+var myRealRealAge = 27;
+myRealRealAge = "27";
