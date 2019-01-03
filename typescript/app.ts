@@ -122,3 +122,12 @@ let complex2 : Complex = {
 // Union Types
 let myRealRealAge: string | number = 27;
 myRealRealAge = "27";
+
+// Checking types during runTime
+let finalValue = 20;
+
+if(typeof finalValue == "number")
+{
+    console.log("This is a number");
+    
+}
