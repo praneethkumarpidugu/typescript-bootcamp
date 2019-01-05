@@ -83,3 +83,12 @@ var complex2 = {
 // Union Types
 var myRealRealAge = 27;
 myRealRealAge = "27";
+// Checking types during runTime
+var finalValue = 20;
+if (typeof finalValue == "number") {
+    console.log("This is a number");
+}
+// The never type added with Typescript 2.0
+function neverReturns() {
+    throw new Error('An Error!');
+}

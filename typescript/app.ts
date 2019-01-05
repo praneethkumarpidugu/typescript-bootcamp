@@ -131,3 +131,10 @@ if(typeof finalValue == "number")
     console.log("This is a number");
     
 }
+
+// The never type added with Typescript 2.0
+
+function neverReturns():never
+{
+    throw new Error('An Error!');
+}
