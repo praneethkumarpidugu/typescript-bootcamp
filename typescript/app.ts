@@ -138,3 +138,11 @@ function neverReturns():never
 {
     throw new Error('An Error!');
 }
+
+// Nullable types with Typescript 2.0
+
+let treatisAsNull: number | null = 12;
+treatisAsNull = null;
+
+let treatisAlsoAsNull;
+treatisAlsoAsNull = null;

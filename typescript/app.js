@@ -92,3 +92,8 @@ if (typeof finalValue == "number") {
 function neverReturns() {
     throw new Error('An Error!');
 }
+// Nullable types with Typescript 2.0
+var treatisAsNull = 12;
+treatisAsNull = null;
+var treatisAlsoAsNull;
+treatisAlsoAsNull = null;
