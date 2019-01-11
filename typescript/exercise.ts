@@ -1,8 +1,8 @@
-type BankAccount = {money: number, deposit: (val: number) => void};
+type BankAccount = {money: number, deposit: (value: number) => void};
 
 let bankAccount: BankAccount = {
     money: 2000,
-    deposit(money: number): void {
+    deposit(value: number): void {
         this.money += value;
     }
 };
@@ -16,3 +16,9 @@ let myself: {name: string, bankAccount: BankAccount, hobbies: string[]} = {
 myself.bankAccount.deposit(3000);
 
 console.log(myself);
+
+// How Code gets Compiled
+
+let myNewName: string = "hello";
+let myNewAge: number = 29;
+
