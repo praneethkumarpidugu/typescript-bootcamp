@@ -13,5 +13,4 @@ var myself = {
 myself.bankAccount.deposit(3000);
 console.log(myself);
 // How Code gets Compiled
-var myNewName = "hello";
-myNewName = 27;
+var myNewNameHere = "hello";
