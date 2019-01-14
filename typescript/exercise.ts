@@ -20,5 +20,5 @@ console.log(myself);
 // How Code gets Compiled
 
 let myNewName: string = "hello";
-let myNewAge: number = 29;
+
 
