@@ -146,3 +146,7 @@ treatisAsNull = null;
 
 let treatisAlsoAsNull;
 treatisAlsoAsNull = null;
+
+// Avoiding Implicit Any
+let anything: any;
+anything = 27;

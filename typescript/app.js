@@ -97,3 +97,6 @@ var treatisAsNull = 12;
 treatisAsNull = null;
 var treatisAlsoAsNull;
 treatisAlsoAsNull = null;
+// Avoiding Implicit Any
+var anything;
+anything = 27;
