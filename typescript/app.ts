@@ -150,3 +150,6 @@ treatisAlsoAsNull = null;
 // Avoiding Implicit Any
 let anything: any;
 anything = 27;
+
+// Link to more compiler options : https://www.typescriptlang.org/docs/handbook/compiler-options.html
+

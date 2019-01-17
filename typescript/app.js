@@ -100,3 +100,4 @@ treatisAlsoAsNull = null;
 // Avoiding Implicit Any
 var anything;
 anything = 27;
+anything = "sds";
